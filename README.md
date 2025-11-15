@@ -1,33 +1,45 @@
+# E-Commerce Full-Stack Application
+A full-stack e-commerce application with user authentication, product management, order handling, and payment integration. Built using **Node.js**, **Express**, **MongoDB**, **React**, **Redux**, and **Stripe**.
 
-# Install Dependencies
+## Features
+- User authentication and authorization  
+- Product CRUD operations  
+- Search, filter, and pagination  
+- Shopping cart and order management  
+- Stripe payment integration  
+- Admin routes for product and order management  
 
-**For Backend** - `npm i`
+## Technologies
+**Backend:** Node.js, Express, MongoDB, Mongoose, JWT, Stripe  
+**Frontend:** React, Redux, Axios, React Router  
+**Other:** Cloudinary (images), Nodemailer (emails)  
 
-**For Frontend** - `cd frontend` ` npm i`
+## Installation
+Clone the repository:
 
-## Env Variables
+```bash
+git clone <repo-url>
+cd <repo-folder>
+Environment Variables
+Create a config.env in backend/config with:
 
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
-
-**Essential Variables**
+env
+Copy code
 PORT=
-DB_URI =
+DB_URI=
 STRIPE_API_KEY=
 STRIPE_SECRET_KEY=
 JWT_SECRET=
 JWT_EXPIRE=
 COOKIE_EXPIRE=
-SMPT_SERVICE =
+SMPT_SERVICE=
 SMPT_MAIL=
 SMPT_PASSWORD=
 SMPT_HOST=
 SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
+CLOUDINARY_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 
 
-study from :https://www.youtube.com/watch?v=AN3t-OmdyKA&list=LL&index=2&t=13623s
-
-
+link :-https://www.youtube.com/watch?v=AN3t-OmdyKA&list=LL&index=3&t=13623s
